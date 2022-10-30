@@ -1,0 +1,42 @@
+package fourth;
+
+import java.util.Vector;
+
+public class GradeBook {
+	Student student;
+	static Course course;
+	static int grades;
+	static Vector<Student> students = new Vector<Student>();
+	static Vector<Course> courses = new Vector<Course>();
+	static Vector<Integer> grades1 = new Vector<Integer>();
+	
+	public static void addvec(Student student) {
+		students.add(student);
+	}
+	public static void addcou(Course course) {
+		courses.add(course);
+	}
+	
+	public GradeBook() {
+		
+	}
+	public GradeBook(int grades) {
+		grades1.add(grades);
+	}
+	
+	public static int DetermineClassAverage() {
+		for (int i=0; i < students.size(); i++) {
+			grades += grades1.get(i);
+		}
+		grades = grades / students.size();
+		return grades;
+	}
+	
+	public static String DisplayGradeReport() {
+		return "Class average is " + GradeBook.DetermineClassAverage();
+	}
+	
+	public static String displayMessage() {
+		return "Welcome to the grade book for " + courses.get(0).name +"!";
+	}
+}

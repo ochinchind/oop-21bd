@@ -1,0 +1,22 @@
+package fifth;
+
+import java.util.Vector;
+
+public class Person {
+	Gender gender;
+	static Vector<String> students = new Vector<String>();
+	
+	public Person(){
+		
+	}
+	public Person(Gender gender) {
+		students.add(gender);
+	}
+	
+	public String toString() {
+		return "" + gender;
+	}
+	
+	
+	
+}

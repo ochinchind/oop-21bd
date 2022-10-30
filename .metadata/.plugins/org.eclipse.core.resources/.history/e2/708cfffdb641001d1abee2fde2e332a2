@@ -1,0 +1,11 @@
+package yourself;
+
+public class tets {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cat alex = new cat("Alex", "Blue");
+		System.out.println(cat.Voice());
+	}
+
+}

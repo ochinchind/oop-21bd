@@ -1,0 +1,22 @@
+package second;
+
+public class Dataaa {
+	DAYs d = DAYs.SAT;
+	final double price ;
+	private static int id;
+	public String productName;
+	
+	{
+		price = 14.99;
+		id = 0;
+	}
+	
+	public Dataaa() {
+		id++;
+	}
+	public Dataaa(String productName) {
+		this.productName = productName;
+	}
+	
+	
+}

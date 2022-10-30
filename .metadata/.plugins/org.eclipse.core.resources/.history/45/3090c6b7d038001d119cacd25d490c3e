@@ -1,0 +1,9 @@
+package second;
+
+public class Dataaa {
+	DAYs d = DAYs.SAT;
+	final int price ;
+	private static int cnt;
+	public String productName;
+	
+}

@@ -1,0 +1,19 @@
+package fourth;
+
+public class GradeBook {
+	
+	int grades;
+	
+	
+	
+	public GradeBook() {
+		
+	}
+	public GradeBook(int grades) {
+		
+	}
+	
+	public static String displayMessage() {
+		return "Welcome to the grade book for CS101 Object-oriented Programming and Design!";
+	}
+}

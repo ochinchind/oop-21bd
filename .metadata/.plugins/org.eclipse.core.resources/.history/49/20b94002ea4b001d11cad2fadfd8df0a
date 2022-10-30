@@ -1,0 +1,12 @@
+package idkfr;
+
+public class Board {
+	Piece[][] board = new Piece[8][8];
+	
+	board[0][0] = new Bishop();
+	
+	board[1][4].isLegalMove(new Position("h7"));
+	
+	
+	
+}

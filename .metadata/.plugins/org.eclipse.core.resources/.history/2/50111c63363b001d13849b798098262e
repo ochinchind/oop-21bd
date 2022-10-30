@@ -1,0 +1,44 @@
+package fourth;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.util.Vector;
+
+public class GradeBookTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Course OOP = new Course("OOP", 5);
+		
+		Student studenta = new Student(1, "StudentA",18);
+		Student studentb = new Student(5, "StudentB",18);
+		Student studentc = new Student(81, "StudentC",19);
+		Student studentd = new Student(65, "StudentD",18);
+		GradeBook.addvec(studenta);
+		GradeBook.addvec(studentb);
+		GradeBook.addvec(studentc);
+		GradeBook.addvec(studentd);
+		GradeBook.addcou(OOP);
+		
+
+		
+		System.out.println(GradeBook.displayMessage());
+		
+		Scanner sc = new Scanner(System. in );
+		
+		for(int i = 0; i<GradeBook.students.size(); i++) {
+			String grade = sc.nextInt();
+		}
+		
+		String grade = sc.nextLine();
+		
+		System.out.println();
+		
+		
+		
+		
+		
+	}
+
+}

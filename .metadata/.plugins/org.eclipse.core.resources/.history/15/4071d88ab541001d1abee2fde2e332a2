@@ -1,0 +1,10 @@
+package yourself;
+
+public class Animals {
+	public Animals{
+		
+	}
+	public Animals(name) {
+		this.name = name;
+	}
+}

@@ -1,0 +1,7 @@
+package idkfr;
+
+public class Position {
+	char x;
+	int y;
+	private int realX, realY;
+}

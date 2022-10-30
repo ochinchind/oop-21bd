@@ -1,0 +1,14 @@
+package idkfr;
+import java.util.Arrays;
+
+public class Board {
+	Piece[][] board = new Piece[8][8];
+	
+	board[0][0] = new Rook("a1", "White");
+	board[1][0] = new Pawn();
+	
+	board[1][4].isLegalMove(new Position("h7"));
+	
+	
+	
+}

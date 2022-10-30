@@ -1,0 +1,25 @@
+package secondo;
+
+import java.util.Vector;
+
+public class Student extends Person {
+	String program;
+	int year;
+	double fee;
+	static Vector<Student> students;
+	static {
+		students = new Vector<Student>();
+	}
+	{
+		students.add(this);
+	}
+	public Student() {
+		
+	}
+	public Student(String name, String address, String program, int year, double fee) {
+		super(name, address);
+		this.program = program;
+		this.year = year;
+		this.fee = fee;
+	}
+}

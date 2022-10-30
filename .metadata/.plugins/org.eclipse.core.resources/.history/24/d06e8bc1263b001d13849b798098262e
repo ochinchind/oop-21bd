@@ -1,0 +1,22 @@
+package fourth;
+
+import java.util.Vector;
+
+public class GradeBook {
+	
+	int grades;
+	static Vector<Student> students;
+	
+	
+	
+	public GradeBook() {
+		
+	}
+	public GradeBook(int grades) {
+		
+	}
+	
+	public static String displayMessage() {
+		return "Welcome to the grade book for CS101 Object-oriented Programming and Design!";
+	}
+}

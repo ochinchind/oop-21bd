@@ -1,0 +1,11 @@
+package yourself;
+
+public class Animals {
+	String name;
+	public Animals{
+		
+	}
+	public Animals(name) {
+		this.name = name;
+	}
+}

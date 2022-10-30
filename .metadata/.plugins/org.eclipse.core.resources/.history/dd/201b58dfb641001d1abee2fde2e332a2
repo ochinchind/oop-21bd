@@ -1,0 +1,16 @@
+package yourself;
+
+public class Animals {
+	String name;
+	public Animals(){
+		
+	}
+	public Animals(String name) {
+		this.name = name;
+	}
+	
+	public String voice() {
+		return "Not defined";
+	}
+	
+}

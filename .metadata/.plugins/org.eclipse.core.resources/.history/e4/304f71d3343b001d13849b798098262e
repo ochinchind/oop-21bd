@@ -1,0 +1,25 @@
+package fourth;
+
+import java.util.Vector;
+
+public class GradeBook {
+	Student student;
+	static Course course;
+	int grades;
+	static Vector<Student> students = new Vector<Student>();
+	
+	public static void addvec(Student student) {
+		students.add(student);
+	}
+	
+	public GradeBook() {
+		
+	}
+	public GradeBook(int grades) {
+		
+	}
+	
+	public static String displayMessage() {
+		return "Welcome to the grade book for" + course.getName +"!";
+	}
+}

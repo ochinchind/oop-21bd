@@ -1,0 +1,54 @@
+package fifth;
+
+import java.util.Scanner;
+import java.util.Vector;
+
+
+
+public class DragonLaunch {
+	static Vector <Gender> Prison = new Vector<Gender>();
+	public static void kidnap(Person p) {
+		if (Prison.lastElement()==Gender.B & p.gender == Gender.G) {
+			Prison.remove(Prison.size()-1);
+		} else {
+		Prison.add(p.gender);
+		}
+	}
+	
+	public static void WillDragonEatOrNot() {
+		if (Prison.isEmpty())
+			
+	}
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System. in );
+	
+		
+		
+		
+		String person = sc.nextLine();
+		Person [] Personas = new Person [person.length()];
+		
+		for(int i = 0; i < person.length(); i++) {
+			char a = person.charAt(i);
+			if (a == 'B') {
+				Personas[i] = new Person(Gender.B);
+			} else {
+				Personas[i] = new Person(Gender.G);
+			}
+		}
+		for(int i = 0; i < person.length(); i++) {
+			DragonLaunch.kidnap(Personas[i]);			
+		}
+
+		DragonLaunch.WillDragonEatOrNot();
+		
+		
+		System.out.println();
+		
+	}
+
+}

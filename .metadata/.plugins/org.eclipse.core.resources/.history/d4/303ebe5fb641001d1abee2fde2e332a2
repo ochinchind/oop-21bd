@@ -1,0 +1,7 @@
+package yourself;
+
+public class cat extends Animals {
+	public String voice() {
+		return "Meow";
+	}
+}

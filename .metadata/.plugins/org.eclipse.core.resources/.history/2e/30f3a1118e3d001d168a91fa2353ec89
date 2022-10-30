@@ -1,0 +1,42 @@
+package fifth;
+
+import java.util.Scanner;
+
+import fourth.GradeBook;
+
+
+public class DragonLaunch {
+	
+	public void kidnap(Person p) {
+		
+	}
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System. in );
+		Person Persons = new Person();
+		
+		
+		
+		String person = sc.nextLine();
+		Person [] Personas = new Person [person.length()];
+		
+		for(int i = 0; i < person.length(); i++) {
+			char a = person.charAt(i);
+			if (a == 'B') {
+				Personas[i] = new GradeBook(grade);
+			} else {
+				Persons.pushGirl();
+			}
+		}
+		DragonLaunch.WillDragonEatOrNot();
+		
+		
+		System.out.println();
+		
+	}
+
+}

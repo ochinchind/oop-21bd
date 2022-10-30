@@ -1,0 +1,11 @@
+package idkfr;
+
+public class Pawn extends Piece {
+	public Pawn() {
+		
+	}
+	public Pawn(Position a, String color) {
+		this.a = a;
+		this.color = color;
+	}
+}

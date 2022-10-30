@@ -1,0 +1,13 @@
+package yourself;
+
+public class cat extends Animals {
+	String color;
+	public cat(String name, String color) {
+		super(name);
+		this.color = color;
+	}
+	
+	public String voice() {
+		return "Meow";
+	}
+}

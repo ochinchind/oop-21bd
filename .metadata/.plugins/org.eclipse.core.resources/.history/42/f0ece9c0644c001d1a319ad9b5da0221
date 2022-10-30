@@ -1,0 +1,24 @@
+package idkfr;
+
+public class Pawn extends Piece {
+	public Pawn() {
+		
+	}
+	public Pawn(Position a, String color) {
+		this.a = a;
+		this.color = color;
+	}
+	@Override
+	boolean isLegalMove(Position b) {
+		if(this.color.equals("W")) {
+		if(this.a.y < b.y && (b.y - this.a.y) <2) && this.a.x == b.x) {
+			return true;
+		}
+		}
+		return false;
+	}
+	
+	
+	
+	
+}

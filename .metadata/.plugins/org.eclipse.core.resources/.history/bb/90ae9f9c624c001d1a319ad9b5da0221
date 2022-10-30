@@ -1,0 +1,12 @@
+package idkfr;
+
+public abstract class Piece {
+	String color;
+	Position a;
+	abstract boolean isLegalMove(Position b);
+	boolean isLegalMove(Position a, Position b) {
+		
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package second;
+
+public class Nalayze {
+
+	public static void main(String[] args) {
+		Dataaa new Dataaa(); 
+
+	}
+
+}

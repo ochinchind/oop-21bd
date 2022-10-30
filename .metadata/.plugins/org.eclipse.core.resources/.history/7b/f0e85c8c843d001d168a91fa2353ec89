@@ -1,0 +1,36 @@
+package fifth;
+
+import java.util.Scanner;
+
+
+public class DragonLaunch {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System. in );
+		Person a = new Person("Asik", Gender.B);
+		Person b = new Person("Basik", Gender.G);
+		Person c = new Person("Casik", Gender.B);
+		Person d = new Person("Dasik", Gender.B);
+		
+		
+		
+		
+/*		String person = sc.nextLine();
+		
+		for(int i = 0; i < person.length(); i++) {
+			char a = person.charAt(i);
+			if (a == 'B') {
+				Person Persons = new Person(Gender.B);
+			} else {
+				Person Persons = new Person(Gender.G);
+			}
+		}
+		*/
+		System.out.println();
+		
+	}
+
+}

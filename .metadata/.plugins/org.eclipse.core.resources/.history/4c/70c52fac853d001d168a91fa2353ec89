@@ -1,0 +1,26 @@
+package fifth;
+
+import java.util.Vector;
+
+public class Person {
+	Gender gender;
+	Vector <String> kidnap = new Vector<String>();
+
+	
+	public Person(){
+		
+	}
+
+	public String toString() {
+		return ""+gender;
+	}
+	public void pushBoy() {
+		kidnap.add("B")
+	}
+	public void pushGirl() {
+		System.out.println("Fuck you!");
+	}
+	
+	
+	
+}

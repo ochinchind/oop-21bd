@@ -1,0 +1,26 @@
+package secondo;
+
+import java.util.Scanner;
+
+public class testPeople {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System. in );
+		Student a = new Student("Alex","Bakerstreet", "infosys",2022,999.99 );
+		System.out.println(a);
+		System.out.println("Do you want to add student or employee?");
+		System.out.println("Show list of:"
+				+ "1.Students"
+				+ "2.Employees");
+		int choice = sc.nextInt();
+		if(choice == 1) {
+			for(student:)
+		}
+		
+		
+		
+		
+	}
+
+}

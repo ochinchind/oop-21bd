@@ -1,0 +1,25 @@
+package fifth;
+
+import java.util.Vector;
+
+public class Person {
+	Gender gender;
+
+	
+	public Person(){
+		
+	}
+
+	public String toString() {
+		return ""+gender;
+	}
+	public void pushBoy() {
+		System.out.println("Fuck me!");
+	}
+	public void pushGirl() {
+		System.out.println("Fuck you!");
+	}
+	
+	
+	
+}

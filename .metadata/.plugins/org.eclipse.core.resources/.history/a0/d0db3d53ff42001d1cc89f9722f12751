@@ -1,0 +1,13 @@
+package secondo;
+
+public class Student extends Person {
+	String program;
+	int year;
+	double fee;
+	public Student() {
+		
+	}
+	public Student(String name, String address, String program, int year, double fee) {
+		
+	}
+}
